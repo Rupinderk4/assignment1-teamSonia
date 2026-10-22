@@ -1,2 +1,4 @@
 bin/
 build/
+Thumbs.db
+.DS_Store
