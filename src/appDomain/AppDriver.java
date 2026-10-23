@@ -18,9 +18,17 @@ import utilities.Sorter;
 /**
  * <p>
  * This application driver code is designed to be used as a basis for the
- * Complexity and Sorting assignment that will be developed in the CPRG304 
+ * Complexity and Sorting assignment that will be developed in the CPRG304
  * class at SAIT. The implementors of this applications will be required
  * to add all the correct functionality.
+ * </p>
+ *
+ * <p>
+ * Reads and validates command-line arguments and loads products into a
+ * Product array. Runs the selected sorting algorithm in descending order
+ * using original price, updated price, or calculated difference.
+ * Measures the sorting time and displays the required results.
+ * Reports invalid arguments and file-reading errors.
  * </p>
  */
 public class AppDriver
