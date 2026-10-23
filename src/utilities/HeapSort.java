@@ -26,13 +26,6 @@ import products.Product;
 public final class HeapSort
 {
 	/**
-	 * Private constructor, because this class only has static methods.
-	 */
-	private HeapSort()
-	{
-	}
-
-	/**
 	 * Sorts the products from largest to smallest using
 	 * {@link Product#compareTo(Product)}, which {@code Product} implements
 	 * from the {@link Comparable} interface. This is used for the {@code d}
